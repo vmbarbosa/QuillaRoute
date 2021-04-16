@@ -5,7 +5,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/vmbarbosa/FinalProjectFrotendCourse?style=flat-square)
 ![GitHub Languages](https://img.shields.io/github/languages/count/vmbarbosa/FinalProjectFrotendCourse?style=flat-square)
 ![GitHub Pull Request](https://img.shields.io/github/issues-pr/vmbarbosa/FinalProjectFrotendCourse?style=flat-square)
-![GitHub Commit Activity](https://img.shields.io/github/commit-activity/w/vmbarbosa/FinalProjectFrotendCourse?style=for-the-badge)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/w/vmbarbosa/FinalProjectFrotendCourse?style=flat-square)
 
 ## Contributors
 
