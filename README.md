@@ -1,9 +1,10 @@
 # Quilla Route
 
-![GitHub repo size](https://img.shields.io/github/repo-size/vmbarbosa/FinalProjectFrotendCourse)
-![GitHub contributors](https://img.shields.io/github/contributors/vmbarbosa/FinalProjectFrotendCourse)
-![GitHub stars](https://img.shields.io/github/stars/vmbarbosa/FinalProjectFrotendCourse?style=social)
-![GitHub forks](https://img.shields.io/github/forks/vmbarbosa/FinalProjectFrotendCourse?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/vmbarbosa/FinalProjectFrotendCourse?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/vmbarbosa/FinalProjectFrotendCourse?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/vmbarbosa/FinalProjectFrotendCourse?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/vmbarbosa/FinalProjectFrotendCourse?style=for-the-badge)
+![GitHub Languages](https://img.shields.io/github/languages/count/vmbarbosa/FinalProjectFrotendCourse?style=for-the-badge)
 
 ## Contributors
 
