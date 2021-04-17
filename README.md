@@ -9,7 +9,11 @@
 
 ## Contributors
 
-Thanks to the following people who have contributed to this project:
+The people who are working to this project:
 
-* [@vmbarbosa](https://github.com/vmbarbosa) 
+* [Victor Barbosa](https://github.com/vmbarbosa) 
+* [Daniel Martinez](https://github.com/adanielm)
+* [Carlos Montez](https://github.com/cdmontes)
+* [Juan Ortiz](https://github.com/Dulco)
+* [Sebastian Royero](https://github.com/SebastianRoyero)
 
