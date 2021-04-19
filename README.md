@@ -13,7 +13,7 @@ The people who are working to this project:
 
 * [Victor Barbosa](https://github.com/vmbarbosa) 
 * [Daniel Martinez](https://github.com/adanielm)
-* [Carlos Montez](https://github.com/cdmontes)
+* [Carlos Montes](https://github.com/cdmontes)
 * [Juan Ortiz](https://github.com/Dulco)
 * [Sebastian Royero](https://github.com/SebastianRoyero)
 

@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.logo-inicio {
+    display: flex;
+    margin-left: 1%;
+    margin-top: 0px;
+    height: 65px;
+}
+
+nav{
+    justify-content: right;
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    background: #5465FF;
+    display: flex;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    background: rgb(84, 101, 255);
+}
+
+.logonews{
+    padding-top: 90px;
+    padding-left: 34%;
+}
+
+.box{
+    margin-top: 35px;
+    margin-left: 10%;
+    width: 600px;
+    height: 250px;
+    background: #F0F1FD;
+    box-shadow: 0 3px 4px -2px rgba(0, 0, 0, .5);
+}
+
+.name{
+    padding-top: 15px;
+    padding-left: 50px;
+    color:rgb(84, 101, 255)
+}
+
+.parrafo1{
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+.img1{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 50px;
+    width: 100%;
+    height: 155px;
+}
+
+.comentario{
+    padding-top: 5px;
+    padding-left: 55px;
+    font-size: small;
+    text-decoration: none;
+}
+
+.location{
+    text-align: center;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+
+.noticias{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 60%;
+    width: 250px;
+    height: 535px;
+    background: #F0F1FD;
+    box-shadow: 0 3px 4px -2px rgba(0, 0, 0, .5);
+}
+
+.user{
+    padding-top: 4px;
+    padding-left: 1207px;
+}
+
+.conjunto{
+    display: flex;
+    padding-left: 15%;
+}
+
+.n1{
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.f1{
+    padding-top: 320px;
+    padding-right: 10%;
+    font-size: 12px;
+}
+
+.linea{
+    padding-left: 13px;
+}
+
+.n2{
+    padding-top: 25px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.fecha{
+    padding-left: 60px;
+    color: rgb(90, 90, 90);
+}

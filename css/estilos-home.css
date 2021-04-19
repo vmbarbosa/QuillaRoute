@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FAFAFA;
+}
+nav{
+    justify-content: right;
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #5465FF;
+    display: flex;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+}
+.logo-inicio {
+    display: flex;
+    margin-left: 40%;
+    background:#5465FF;
+}
+.logo-map{
+    background:#5465FF;
+}
+.logo-inicio > h1 {
+    color: #FAFAFA;
+    margin-top: 12px;
+    margin-left: 5px;
+    font: 200% roboto;
+    background:#5465FF;
+}
+
+nav > a{
+    width: 100px;
+    height: 30px;
+    color: #FAFAFA;
+    font-weight: 200;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 4px;
+    border-width: 2px;
+    background:#5465FF;
+}
+.boton-ingresar-inicio {
+    border-style: solid;
+    border-color: #FAFAFA;
+    margin-left: 23%;
+}
+.boton-registrar-inicio {
+    border-style: solid;
+    border-color: #FAFAFA;
+    color: #5465FF;
+    background: #FAFAFA;
+}
+.img-principal {
+    position: absolute;
+    width: 100%;
+    height: 434px;
+    left: 0px;
+    top: 60px;
+}
+main {
+    padding-top: 530px;
+    align-items: center;
+    background: #FAFAFA;
+}
+main h2 {
+    text-align: center;
+}
+.titulo-eventos {
+    justify-content: center;
+    width: 100%;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+}
+.cards {
+    padding-top: 40px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.card {
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    width: 340px;
+    height: 290px;
+    object-fit: cover;
+}
+.card > h4 {
+    font-weight: normal;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: Roboto;
+    box-shadow: 0 3px 4px -2px rgba(0, 0, 0, .5);
+    font-size: 20px;
+    height: 60px;
+    width: 340px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.footer-inicio{
+    margin-top:40px;
+    display: flex;
+    background:#5465FF;
+    height: 35px;
+}
+.footer-inicio h4 {
+    font-weight: normal;
+    background: #5465FF;
+    color: #FAFAFA;
+    font-family: Roboto;
+    padding-top:6px;
+    padding-left: 20px;
+}
+.footer-inicio img{
+    padding-left: 10px;
+    padding-top: 6px;
+    background:#5465FF;
+    width: 30px;
+    height: 26px;
+}
