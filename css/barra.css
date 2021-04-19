@@ -1,0 +1,110 @@
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: rgb(250, 250, 250); 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+ 
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    margin-top: 0px;
+    overflow:hidden;
+    width:100%-20px;
+    height: 620px;
+    background: yellowgreen;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.topnav {
+    background-color: rgb(84, 101, 255);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#sideNavigation > h2{
+  margin-left: 120px;
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #5465FF;
+}
+
+.campo1{
+  margin-left: 14px;
+  color: #5465FF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+}
+
+.campo2{
+  margin-left: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+#descripcion{
+  margin-left: 14px;
+}
+
+#sideNavigation > img{
+  margin-left: 13px;
+}

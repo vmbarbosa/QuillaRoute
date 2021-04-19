@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.background {
+    opacity: 25%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    justify-content: center;
+}
+
+.card {
+    justify-content: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 15px;
+    text-align: center;
+    width: 500px;
+    height:650px;
+    background: #FAFAFA;
+    border-radius: 10px;
+    border: 10px solid #FAFAFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top {
+    flex-direction: column;
+    color: #5465FF;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+}
+
+.formu {
+    text-align: start;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.formu label {
+    color: #9CA9FF;
+    padding-left: 25px;
+}
+
+.inputs {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: #F0F1FD;
+    border-bottom-color: #9CA9FF;
+    width: 425px;
+    height: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    color:#0C090A;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.pass {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: #F0F1FD;
+    border-bottom-color: #9CA9FF;
+    width: 200px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 10px;
+    color:#0C090A;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.contraseña{
+    display: flex;
+}
+.col1{
+    float:right;
+}
+.col2{
+    float:left;
+}
+.reg{
+    margin-bottom: 20px;
+}
+.reg:focus-within .inputs {
+    border-bottom-color: #5465FF;
+}
+
+.reg:focus-within label {
+    color: #5465FF;
+}
+
+.extra {
+    padding-left: 25px;
+    font-size: 15px;
+    color: #5465FF;
+}
+
+.extra:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.login {
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    background: #5465FF;
+    font-size: 21px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    border-style: solid;
+    border-color: #5465FF;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.bot{
+    flex-direction: column;
+}
+.login:hover{
+    background:#4654D4;
+    border: #4654D4;
+    cursor: pointer;
+}
+
+.regis{
+    font-size: 15px;
+    color: #5465FF;
+    margin-top: 10px;
+}
+
+.regis:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo{
+    position: absolute;
+    top:90%;
+    left: 88%;
+    width: 10%;
+    height: 15%;
+    object-fit: cover;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
