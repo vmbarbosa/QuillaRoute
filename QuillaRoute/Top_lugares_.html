@@ -9,7 +9,6 @@
     <title>Turismo en Barranquilla</title>
     <link rel="stylesheet" href="../css/estilos-foro.css">
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-    <script type="text/javascript" src="../js/crear_post.js"></script>
 </head>
 
 <body>
@@ -61,12 +60,12 @@
             <div class=usuario>
                 <!-- Barra para añadir nuevo post e iconos para adjuntar foro y enviar post -->
                 <!-- Se utiliza iconify para traer el icono a usar y se le agrega la ruta a la que se dirige cuando se da clic -->
-                <a href="#" ><span class="iconify" data-inline="false" data-icon="fa-solid:user"
+                <a href="#"><span class="iconify" data-inline="false" data-icon="fa-solid:user"
                         style="color: #5465FF; font-size: 35px"></span></a>
                 <div class="padre"><input class="inputs"></div>
                 <a href="#"> <span class="iconify" data-inline="false" data-icon="el:paper-clip"
                         style="color: #5465FF; font-size: 30px;"></span> </a>
-                <a href="#" onclick="Post()"> <span class="iconify" data-inline="false" data-icon="ph:paper-plane-right-fill"
+                <a href="#"> <span class="iconify" data-inline="false" data-icon="ph:paper-plane-right-fill"
                         style="color: #5465FF; font-size: 30px;"></span> </a>
 
             </div>
@@ -133,6 +132,37 @@
                         </div>
                     </div>
                 </div>
+
+            </div>
+
+            <div class="post">
+                <!-- Creación de post de los eventos por parte de los usuarios -->
+                <div class="left">
+                    <div class="content">
+                        <div class="name">
+                            <!-- Nombre del usuario quien realiza el post -->
+                            Sebastian Royero
+                            <!-- Fecha en la que se realiza el post -->
+                            <a class="fecha">28/02/2021</a>
+                        </div>
+                        <div class="parrafo1">
+                            <!-- Comentario del post creado por el usuario -->
+                            Tienen que visitar la ventana del mundo.
+                        </div>
+                        <div class="img1">
+                            <!-- Se visualiza la imagen del post adjuntada por el usuario -->
+                            <img src="../images/Ventana.jpg" alt="" class="B1">
+                        </div>
+                        <div>
+
+                        </div>
+                        <!-- Se añade la ubicación por parte del usuario a la que hace referencia el post -->
+                        <a class="location"><span class="iconify" data-inline="false"
+                                data-icon="fluent:location-28-filled" style="color: #5465FF; font-size: 18px;"> </span>
+                            Ventana del mundo, Barranquilla </a>
+                    </div>
+                </div>
+                
 
             </div>
         </div>
