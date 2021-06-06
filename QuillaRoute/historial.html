@@ -15,33 +15,43 @@
     <nav class="nav">
       <div class="logo-inicio">
         <div class="logonav">
-            <a href="../QuillaRoute/home.html"> <img src="../images/logo-foro.png" alt="" class="logo-inicio"></a>
+          <!-- Se establece la acción de redirección hacia la página inicial cuando se da clic en el logo -->
+          <!-- Se realiza la busqueda de la imagen que se quiere mostrar en la vista y se le agrega la ruta a la que se dirige cuando se da clic -->
+          <a href="../QuillaRoute/home.html"> <img src="../images/logo-foro.png" alt="" class="logo-inicio"></a>
         </div>
         <div class="menunav">
+            <!-- Se establece la redirección hacia las vistas correspondientes -->
+            <!-- A traves de href se le agrega la ruta a la que se dirige cuando se da clic -->
             <a href="../QuillaRoute/Foro.html">Inicio</a>
             <a href="../QuillaRoute/Noticias.html">Noticias</a>
             <a href="../QuillaRoute/barra.html">Mapa</a>
         </div>
         <div class="usernav">
+            <!-- Se establece la redirección hacia la vista de perfil de usuario a través del icono de perfil -->
+            <!-- Se utiliza iconify para traer el icono a usar y se le agrega la ruta a la que se dirige cuando se da clic -->
             <a class="user"><span class="iconify" data-icon="bx:bx-user-circle" data-inline="false"
                 style="color: #fff; font-size: 55px;"></span></a>
         </div>
     </nav>
   </header>
+  <!-- Se añade una imagen como fondo-->
   <img class="background"src="../images/background.png" alt="">
   <div class="tarjeta-central">
 
     <div class="side-menu">
       <div class="imagen-port">
         <div class="foto">
+          <!-- Se añade una imagen como foto de perfil del usuario activo-->
           <img src="../images/pexels-simon-migaj-747964 1.png" alt="Foto de perfil" />
           <div class="hover-img">
+            <!-- Se añade animación para que cuando pase el mouse sobre la imagen se visualice otra-->
             <input type="image" src="../images/camara.svg" alt="Submit">
           </div>
         </div>
       </div>
       <nav>
         <ul>
+          <!-- Se utiliza href para redireccionar cuando se hace clic sobre el texto presentado -->
           <li><a href="../QuillaRoute/perfilusuario.html">Información Personal</a></li>
           <li><a href="../QuillaRoute/historial.html">Historial de Eventos</a></li>
         </ul>
@@ -49,6 +59,7 @@
 
     </div>
     <div class="contenido">
+      <!-- Sobre este apartado se visualiza noticias de eventos en Barranquilla -->
         <h2>Historial de eventos</h2>
         <hr />
         <div class="post">
@@ -68,6 +79,7 @@
                     <div>
 
                     </div>
+                    <!-- Se utiliza iconify para traer el icono a usar  -->
                     <a class="location"><span class="iconify" data-inline="false"
                             data-icon="fluent:location-28-filled" style="color: #5465FF; font-size: 18px;"> </span>
                         Lago Del Cisne, Colombia </a>
@@ -94,6 +106,7 @@
                     <div>
 
                     </div>
+                    <!-- Se utiliza iconify para traer el icono a usar -->
                     <a class="location"><span class="iconify" data-inline="false"
                             data-icon="fluent:location-28-filled" style="color: #5465FF; font-size: 18px;"> </span>
                         Puerta de Oro, Colombia </a>
@@ -108,6 +121,7 @@
   </div>
   <footer class="footer-inicio">
     <h4>Mas información</h4>
+    <!-- Se utiliza iconify para traer el icono a usar y se añade texto alternativo en caso de que la imagen no cargue -->
     <img src="../images/Vector-fb.png" alt="Facebook" />
     <img src="../images/twitter- Vector.png" alt="Twitter" />
     <img src="../images/vector-instagram.png" alt="Instagram" />
