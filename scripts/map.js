@@ -156,6 +156,13 @@ var aviacion_icon = L.ExtraMarkers.icon({
   prefix: 'fa'
 });
 
+var cancha_fut_icon = L.ExtraMarkers.icon({
+  icon: 'fas fa-map-marker-alt',
+  markerColor: 'blue',
+  shape: 'square',
+  prefix: 'fa'
+});
+
 //############### Markers ###############
 
 var Stadium = L.marker([10.993591464586146, -74.8069963064242], {icon: Stadium_icon, title: "Estadio Romelio Martinez"}).addTo(myMap);
@@ -239,7 +246,9 @@ merka  .bindPopup("<h2>Merkafull</h2><br>Supermercado.​<br><br><b>Horario: </b
 var aviacion = L.marker([10.94922, -74.77430], {icon: aviacion_icon, title: "Monumento a la aviación"}).addTo(myMap);
 aviacion  .bindPopup("<h2>Monumento a la aviación</h2><br>El monumento réplica del avión que piloteó Knox Martín en el año 1919, cuando voló de Barranquilla a Puerto Colombia en un biplano modelo Curtiss, con el copiloto colombiano Mario Santodomingo.​<br><br><b>Dirección: </b>a 8-180, Cl. 18 #8-102, Barranquilla, Atlántico<br>★★★✩✩ (17)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipP9VM0ZNZ4qyFLOTszP8MmuxO7ZoP788p6WYv0x=w426-h240-k-no\" width=\"300\" height=\"200\">");
 
-aviacion_icon
+var cancha_fut = L.marker([10.97852, -74.80455], {icon: cancha_fut_icon, title: "Cancha de futbol Nueva Granada"}).addTo(myMap);
+cancha_fut  .bindPopup("<h2>Cancha de futbol Nueva Granada</h2><br>Campo de fútbol.​<br><br><b>Horario: </b>24 horas<br><b>Dirección: </b>Esquina Carrera 29, Cl. 65, Barranquilla, Atlántico<br>★★★★✩ (133)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipPlrSi2YV-2bF3OwXhfKEYM9yADkd7t9JTrHlKI=w408-h255-k-no\" width=\"300\" height=\"200\">");
+
 //############### Search ###############
 
 var searchLayer = L.layerGroup();
