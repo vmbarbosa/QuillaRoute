@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UFF-8" />
+    <meta name="viewport" content="width-device-width, inicial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="../css/perfiladministrador.css" />
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo-inicio">
+          <img src="../images/logo.png" alt="" class="logo-map" />
+          <a class="user"
+            >
+            <!-- Se utiliza iconify para traer el icono a usar -->
+            <span
+              class="iconify"
+              data-icon="bx:bx-user-circle"
+              data-inline="false"
+              style="color: #fff; font-size: 55px"
+            ></span
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <div class="tarjeta-central">
+      <div class="side-menu">
+        <nav>
+          <ul>
+            <!-- Se utiliza texto para redireccionar hacia otra vista -->
+            <li><a href="#">Información Personal</a></li>
+            <li><a href="#">Historial de Eventos</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="contenido">
+        <h2>Información Personal</h2>
+        <form class="informacion">
+          
+          <div class="inicio">
+            
+            <input type="submit" class="submit" value="Administrador" />
+          </div>
+        </form>
+        <hr />
+        <form class="informacion">
+          <div class="foto">
+            <!-- Se utiliza imagen con texto alternativo en caso de que no cargue -->
+            <img
+              src="../images/pexels-simon-migaj-747964 1.png"
+              alt="Foto de perfil"
+            />
+            <div class="camara-contenedor">
+              <!-- Se utiliza imagen con texto alternativo en caso de que no cargue -->
+              <input type="image" src="../images/camara.svg" alt="Submit" style="float:right" width="48" height="48">
+            </div>
+          </div>
+          <div class="formulario">
+            <div>
+              <label for="nombre">Nombre</label>
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                value="Jackson Wang"
+              />
+            </div>
+            <div>
+              <label for="edad">Edad</label>
+              <input type="text" name="edad" id="edad" value="25" />
+            </div>
+            <div>
+              <label for="genero">Genero</label>
+              <input type="text" name="genero" id="genero" value="Masculino" />
+            </div>
+            <div>
+              <label for="ciudad">Ciudad</label>
+              <input
+                type="text"
+                name="ciudad"
+                id="ciudad"
+                value="Barranquilla"
+              />
+            </div>
+            <div>
+              <label for="direccion">Dirección</label>
+              <input
+                type="text"
+                name="direccion"
+                id="direccion"
+                value="Cll 79 #41-329"
+              />
+            </div>
+            <input type="submit" class="submit" value="Guardar cambios" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="footer-inicio">
+      <h4>Mas información</h4>
+      <!-- Se utiliza imagen con texto alternativo en caso de que no cargue -->
+      <img src="../images/Vector-fb.png" alt="Facebook" />
+      <img src="../images/twitter- Vector.png" alt="Twitter" />
+      <img src="../images/vector-instagram.png" alt="Instagram" />
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Quilla Route</title>
+    <link rel="shortcut icon" href="../images/Logo-Map.png">
+    <script type="text/javascript" src="../js/script_home.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+    <script src="https://kit.fontawesome.com/e7ef08bb2a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilos-home.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-inicio">
+                <!-- Imagen que represente el logo de la página -->
+                <img src="../images/Logo-Map.png" alt="" class="logo-map">
+                <!-- Nombe de la página -->
+                <h1>Quilla Route</h1>
+            </div>
+            <!-- Se utiliza iconify para traer el icono a usar y se le agrega la ruta a la que se dirige cuando se da clic -->
+            <a href="login.html" class="boton-ingresar-inicio">Ingresar</a>
+            <a href="register.html" class="boton-registrar-inicio">Registrar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="festival">
+            <div class="carousel">
+                <div class="carousel__contenedor">
+                    <button class="carousel__anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel__lista">
+                        <div class="carousel__elemento">
+                            <div class="leftcarousel">
+                                <h2>!Los mejores eventos!</h2>
+                                <p>Con nuestra página podrás encontrar los eventos más esperados a lo largo del año.</p>
+                                <button href="" class="explorar">Empezar</button>
+                            </div>
+                            <img src="../images/Festival.png" alt="festivales">
+                        </div>
+                        <div class="carousel__elemento">
+                            <div class="leftcarousel">
+                                <h2>!Los mejores lugares!</h2>
+                                <p>Explora los lugares más enigmáticos de la ciudad.</p>
+                                <button href="" class="explorar">Explorar</button>
+                            </div>
+                            <img src="../images/monumento-la-ventana-al-mundo.jpg" alt="festivales">
+                        </div>
+                        <div class="carousel__elemento">
+                            <div class="leftcarousel">
+                                <h2>!Las mejores historias!</h2>
+                                <p>Un sin fín de historias que la ciudad te contará y otras muchas que vivirás.</p>
+                                <button href="" class="explorar">Explorar</button>
+                            </div>
+                            <img src="../images/plazapaz.jpg" alt="festivales">
+                        </div>
+                    </div>
+                    <button class="carousel__siguiente">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div role="tablist" class="carousel__indicadores">
+
+                </div>
+            </div>
+        </section>
+        <!-- Breve descripción de eventos en Barranquilla -->
+        <section class="ventajas">
+            <h1>Descúbrenos</h1>
+            <p>Conoce la variedad de herramientas que tenemos para que empiezes a trazar tus rutas y a visitar los
+                lugares de la ciudad.</p>
+            <div class="tools">
+                <div class="container">
+                    <a class=icony><i class="fa-5x fas fa-map-marked-alt"></i></a>
+                    <h2>Explora</h2>
+                    <p>Mapa completamente interactivo, traza rutas, empieza a pasear. </p>
+                </div>
+                <div class="container">
+                    <a class=icony><i class="fa-5x far fa-comments"></i></a>
+                    <h2>Califica</h2>
+                    <p>Deja tu valoración y comentarios acerca de los lugares que visites. </p>
+                </div>
+                <div class="container">
+                    <a class=icony><i class="fa-5x far fa-newspaper"></i></a>
+                    <h2>Mantente al día</h2>
+                    <p>Últimas noticias acerca de los lugares y eventos más importantes de la ciudad. </p>
+                </div>
+                <div class="container">
+                    <a class=icony><i class="fa-5x fas fa-users"></i></a>
+                    <h2>Comparte</h2>
+                    <p>Comparte o explora post de la comunidad en nuestro foro abierto y sus categorías</p>
+                </div>
+
+            </div>
+            <div class="empiezas">
+                <button onclick="start();" class="empezar">¡Empieza ya!</button>
+            </div>
+
+
+        </section>
+        <section class="eventos">
+            <h2 class="titulo-eventos">¡Conoce los nuevos eventos!</h2>
+            <p>Conoce la variedad de nuevos eventos que hacen parte o se incorporan a la cultura barranquillera.
+
+            </p>
+            <div class="cards">
+                <!-- Se utiliza una imagen para redireccionar a la ruta a la que se dirige cuando se da clic a través de js-->
+                <div class="card" onclick="Sabor();">
+                    <img src=" ../images/Evento 1.jpg" alt="">
+                    <h4>Sabor Barranquilla</h4>
+                </div>
+                <div class="card" onclick="Auto();">
+                    <img src="../images/Evento 2.jpg" alt="">
+                    <h4>Autofest Caribe</h4>
+                </div>
+                <div class="card" onclick="Agro();">
+                    <img src="../images/Evento 3.jpg" alt="">
+                    <h4>Agroexpo Caribe</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="footer-inicio">
+        <h4>Mas información</h4>
+        <!-- Se utiliza iconify para traer el icono a usar con el fin de obtener mas información de la página -->
+        <img src="../images/Vector-fb.png" alt="">
+        <img src="../images/twitter- Vector.png" alt="">
+        <img src="../images/vector-instagram.png" alt="">
+    </section>
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script src="../js/script_home2.js"></script>
+
+</body>
+
+</html>

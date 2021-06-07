@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UFF-8">
+    <meta name="viewport" content="width-device-width, inicial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Eventos Barranquilla</title>
+    <link rel="stylesheet" href="../css/estilos-foro.css">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-inicio">
+                <div class="logonav">
+                    <!-- Se establece la acción de redirección hacia la página inicial cuando se da clic en el logo -->
+                    <!-- Se realiza la busqueda de la imagen que se quiere mostrar en la vista y se le agrega la ruta a la que se dirige cuando se da clic -->
+                    <a href="../QuillaRoute/home.html"> <img src="../images/logo-foro.png" alt="" class="logo-inicio"></a>
+                </div>
+                <div class="menunav">
+                    <!-- Se establece la redirección hacia las vistas correspondientes -->
+                    <!-- A traves de href se le agrega la ruta a la que se dirige cuando se da clic -->
+                    <a href="../QuillaRoute/Top_Lugares.html">Inicio</a>
+                    <a href="../QuillaRoute/Noticias.html">Noticias</a>
+                    <a href="../QuillaRoute/barra.html">Mapa</a>
+                </div>
+                <div class="usernav">
+                    <!-- Se establece la redirección hacia la vista de perfil de usuario a través del icono de perfil -->
+                    <!-- Se utiliza iconify para traer el icono a usar y se le agrega la ruta a la que se dirige cuando se da clic -->
+                    <a href="perfilusuario.html" class="user"><span class="iconify" data-icon="bx:bx-user-circle"
+                            data-inline="false" style="color: #fff; font-size: 55px;"></span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="Seleccion">
+        <div class="seccizq">
+            <div class="categoriaLista">
+                <!-- Se determina la redirección hacia las vistas correspondientes de cada opción del menú de categorias -->
+                <!-- Se utiliza iconify para traer el icono a usar -->
+                <!-- Se añade el texto y se le agrega la ruta a la que se dirige cuando se da clic -->
+                <a href="../QuillaRoute/Top_Lugares.html" class=categorias> <span class="iconify" data-inline="false" data-icon="akar-icons:folder"
+                        style="color: #5465FF;"></span> CATEGORIAS:</a>
+                <a href="../QuillaRoute/Top_Lugares.html" class=categorias> </span><span class="iconify" data-inline="false"
+                        data-icon="fluent:location-28-filled" style="color: #5465FF;"> </span> Top Lugares</a>
+                <a href="../QuillaRoute/Restaurantes.html" class=categorias> <span class="iconify" data-inline="false"
+                        data-icon="ic:twotone-restaurant" style="color: #5465FF;"></span> Restaurantes</a>
+                <a href="../QuillaRoute/Lugares_historicos.html" class=categorias> <span class="iconify" data-inline="false"
+                        data-icon="ic:baseline-add-location" style="color: #5465FF;"></span> Lugares con Historia</a>
+                <a href="../QuillaRoute/Eventos.html" class="categoria"> <span class="iconify" data-inline="false" data-icon="cil:happy"
+                        style="color: #5465FF;"></span> Entretenimiento</a>
+                <a href="../QuillaRoute/Hospedaje.html" class=categorias> <span class="iconify" data-inline="false" data-icon="bi:house-fill"
+                        style="color: #5465FF;"></span></span> Hospedaje</a>
+            </div>
+        </div>
+        <div class="seccder">
+            <div class=usuario>
+                <!-- Barra para añadir nuevo post e iconos para adjuntar foro y enviar post -->
+                <!-- Se utiliza iconify para traer el icono a usar y se le agrega la ruta a la que se dirige cuando se da clic -->
+                <a href="#"><span class="iconify" data-inline="false" data-icon="fa-solid:user"
+                        style="color: #5465FF; font-size: 35px"></span></a>
+                <div class="padre"><input class="inputs"></div>
+                <a href="#"> <span class="iconify" data-inline="false" data-icon="el:paper-clip"
+                        style="color: #5465FF; font-size: 30px;"></span> </a>
+                <a href="#"> <span class="iconify" data-inline="false" data-icon="ph:paper-plane-right-fill"
+                        style="color: #5465FF; font-size: 30px;"></span> </a>
+
+            </div>
+        <div class="post">
+            <!-- Creación de post de los eventos por parte de los usuarios -->
+            <div class="left">
+                <div class="content">
+                    <div class="name">
+                        <!-- Nombre del usuario quien realiza el post -->
+                        Victor Barbosa
+                        <!-- Hora en la que se realiza el post -->
+                        <a class="fecha">hace 12 horas</a>
+                    </div>
+                    <div class="parrafo1">
+                        <!-- Comentario del post creado por el usuario -->
+                        Que buen partido en el Metropolitano de Barranquilla
+                    </div>
+                    <div class="img1">
+                        <!-- Se visualiza la imagen del post adjuntada por el usuario -->
+                        <img src="../images/Estadio.jpg" alt="" class="B1">
+                    </div>
+                    <a class="location"><span class="iconify" data-inline="false"
+                            data-icon="fluent:location-28-filled" style="color: #5465FF; font-size: 18px;"> </span>
+                            <!-- Se añade la ubicación por parte del usuario a la que hace referencia el post -->
+                            Barranquilla, Colombia </a>
+                </div>
+            </div>
+            <div class="right">
+                <!-- Comentarios usuarios del post -->
+                <div class="comment">
+                    <div class="username">
+                        <a href="#"><span class="iconify" data-inline="false" data-icon="fa-solid:user"
+                                style="color: #5465FF; font-size: 20px"></span></a>
+                        <!-- Nombre del usuario quien realiza el comentario -->
+                        <a class="uwu">Anita Maldonado</a>
+                    </div>
+                    <div class="opinion">
+                        <!-- Comentario del post creado por el usuario -->
+                        <p>Excelente vista, sin sol.</p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="username">
+                        <a href="#"><span class="iconify" data-inline="false" data-icon="fa-solid:user"
+                                style="color: #5465FF; font-size: 20px"></span></a>
+                        <!-- Nombre del usuario quien realiza el comentario -->
+                        <a class="uwu">Sebastian Royero</a>
+                    </div>
+                    <div class="opinion">
+                        <!-- Comentario del post creado por el usuario -->
+                        <p>Muy bacano el partido.</p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="username">
+                        <a href="#"><span class="iconify" data-inline="false" data-icon="fa-solid:user"
+                                style="color: #5465FF; font-size: 20px"></span></a>
+                        <!-- Nombre del usuario quien realiza el comentario -->
+                        <a class="uwu">Juan Ortiz</a>
+                    </div>
+                    <div class="opinion">
+                        <!-- Comentario del post creado por el usuario -->
+                        <p>Me atracaron afuera del estadio.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="post">
+        <!-- Creación de post de los eventos por parte de los usuarios -->
+            <div class="left">
+                <div class="content">
+                    <div class="name">
+                        <!-- Nombre del usuario quien realiza el post -->
+                        Victor Barbosa
+                        <!-- Fecha en la que se realiza el post -->
+                        <a class="fecha">28/02/2021</a>
+                    </div>
+                    <div class="parrafo1">
+                        <!-- Comentario del post creado por el usuario -->
+                        Buen lugar para traer a los niños.
+                    </div>
+                    <div class="img1">
+                        <!-- Se visualiza la imagen del post adjuntada por el usuario -->
+                        <img src="../images/Zero.jpg" alt="" class="B1">
+                    </div>
+                    <!-- Se añade la ubicación por parte del usuario a la que hace referencia el post -->
+                    <a class="location"><span class="iconify" data-inline="false"
+                            data-icon="fluent:location-28-filled" style="color: #5465FF; font-size: 18px;"> </span>
+                        Barranquilla, Colombia </a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="comment">
+                    <div class="username">
+                        <a href="#"><span class="iconify" data-inline="false" data-icon="fa-solid:user"
+                                style="color: #5465FF; font-size: 20px"></span></a>
+                        <!-- Nombre del usuario quien realiza el comentario -->
+                        <a class="uwu">Anita Maldonado</a>
+                    </div>
+                    <div class="opinion">
+                        <!-- Comentario del post creado por el usuario -->
+                        <p>Muy bacano, mis hijos disfrutaron.</p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="username">
+                        <a href="#"><span class="iconify" data-inline="false" data-icon="fa-solid:user"
+                                style="color: #5465FF; font-size: 20px"></span></a>
+                        <!-- Nombre del usuario quien realiza el comentario -->
+                        <a class="uwu">Sebastian Royero</a>
+                    </div>
+                    <div class="opinion">
+                        <!-- Comentario del post creado por el usuario -->
+                        <p>Bueno el ambiente.</p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="username">
+                        <a href="#"><span class="iconify" data-inline="false" data-icon="fa-solid:user"
+                                style="color: #5465FF; font-size: 20px"></span></a>
+                        <!-- Nombre del usuario quien realiza el comentario -->
+                        <a class="uwu">Juan Ortiz</a>
+                    </div>
+                    <div class="opinion">
+                        <!-- Comentario del post creado por el usuario -->
+                        <p>Se me perdió mi niño</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <br><br><br><br>
+</body>
+
+</html>
