@@ -7,6 +7,11 @@
     <title>Mapa</title>
     <link rel="stylesheet" type="text/css" href="../css/barra.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"> 
+    <link rel="stylesheet" href="../css/leaflet.extra-markers.min.css">
+    <script src="../scripts/leaflet.extra-markers.min.js"></script>
 </head>
 <body>
     <div id="sideNavigation" class="sidenav">
@@ -52,9 +57,12 @@
       </nav>
        
       <div id="main">
-        <h1>Mapa</h1>
+        <div id="myMap" style="height: 600px"></div>
+  
+  
       </div>
-
+      
       <script src="../scripts/barra.js"></script>
+      <script src="../scripts/map.js"></script>
 </body>
 </html>
