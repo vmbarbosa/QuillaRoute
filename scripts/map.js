@@ -213,6 +213,9 @@ restaur_tian  .bindPopup("<h2>Restaurante Tian Wah</h2><br>Restaurante.​<br><b
 var restaur_ana = L.marker([10.93670, -74.81778], {icon: cubiertos_icon, title: "Comidas Rápidas La Terraza De Ana"}).addTo(myMap);
 restaur_ana  .bindPopup("<h2>Comidas Rápidas La Terraza De Ana</h2><br>Restaurante.​<br><br><b>Horario: </b>7:00 a 21:00<br><b>Dirección: </b>Cl. 68 #2-67 a 2-1, Barranquilla, Atlántico<br><b>Telefono: </b>+57 3116713455<br>★★★★✩ (23)<br><br><img src=\"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=v3W9DfS8Nl1em86Vw8Yb-Q&cb_client=search.gws-prod.gps&w=408&h=240&yaw=59.463585&pitch=0&thumbfov=100\" width=\"300\" height=\"200\">");
 
+var restaur_papa_johns = L.marker([10.95627, -74.82472], {icon: cubiertos_icon, title: "Papa John's"}).addTo(myMap);
+restaur_papa_johns  .bindPopup("<h2>Papa John's</h2><br>Pizzería.​<br><br><b>Horario: </b>11:00 a 23:00<br><b>Dirección: </b>Cl. 93 #71-49, Barranquilla, Atlántico<br><b>Telefono: </b>+57 53610406<br>★★★★✩ (100)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipMySqLcSrTHXl5OfxRX0XmzaaF8chcqLbk49hdh=w426-h240-k-no\" width=\"300\" height=\"200\">");
+
 //############### Search ###############
 
 var searchLayer = L.layerGroup();
