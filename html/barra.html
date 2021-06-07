@@ -13,21 +13,31 @@
     <link rel="stylesheet" href="../css/leaflet.extra-markers.min.css">
     <script src="../scripts/leaflet.extra-markers.min.js"></script>
 </head>
-<body>
-    
-       
-      <nav class="topnav">
-        <a href="#">
-          
-        </a>
-      </nav>
-       
-      <div id="main">
-        <div id="myMap" style="height: 600px"></div>
-  
-  
-      </div>
+<body>   
+  <header>
+    <nav class="topnav">
+      <div class="logo-inicio">
+        <div class="logonav">
+            <!-- Se establece la acción de redirección hacia la página inicial cuando se da clic en el logo -->
+            <!-- Se realiza la busqueda de la imagen que se quiere mostrar en la vista y se le agrega la ruta a la que se dirige cuando se da clic -->
+            <!-- <a href="../QuillaRoute/home.html"> <img src="../images/logo-foro.png" alt="" class="logo-inicio"></a>-->
+        </div>
+        <div class="menunav">
+            <!-- Se establece la redirección hacia las vistas correspondientes -->
+            <!-- A traves de href se le agrega la ruta a la que se dirige cuando se da clic -->
+            <a href="./home.html">Inicio</a>
+        </div>
+    </div>
+    </nav>
+  </header>
       
-      <script src="../scripts/map.js"></script>
+       
+  <div id="main">
+    <div id="myMap" style="height: 600px"></div>
+  
+  
+  </div>
+      
+  <script src="../scripts/map.js"></script>
 </body>
 </html>
