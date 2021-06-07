@@ -223,8 +223,11 @@ restaur_ana  .bindPopup("<h2>Comidas Rápidas La Terraza De Ana</h2><br>Restaura
 var restaur_papa_johns = L.marker([10.95627, -74.82472], {icon: cubiertos_icon, title: "Papa John's"}).addTo(myMap);
 restaur_papa_johns  .bindPopup("<h2>Papa John's</h2><br>Pizzería.​<br><br><b>Horario: </b>11:00 a 23:00<br><b>Dirección: </b>Cl. 93 #71-49, Barranquilla, Atlántico<br><b>Telefono: </b>+57 53610406<br>★★★★✩ (100)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipMySqLcSrTHXl5OfxRX0XmzaaF8chcqLbk49hdh=w426-h240-k-no\" width=\"300\" height=\"200\">");
 
-var restaur_exito_mur = L.marker([10.97164, -74.77467], {icon: tienda_icon, title: "Tienda Ara"}).addTo(myMap);
-restaur_exito_mur  .bindPopup("<h2>Tienda Ara</h2><br>Supermercado.​<br><br><b>Horario: </b>9:00 a 20:00<br><b>Dirección: </b>Cl. 17 #34-44, Barranquilla, Atlántico<br><b>Telefono: </b>+57 53332785<br>★★★✩✩ (25)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipPLfhiey27KXo8zz-2xeSpPirksQ0DwGFb7NaLe=w408-h272-k-no\" width=\"300\" height=\"200\">");
+var exito_mur = L.marker([10.97164, -74.77467], {icon: tienda_icon, title: "Tienda Ara"}).addTo(myMap);
+exito_mur  .bindPopup("<h2>Tienda Ara</h2><br>Supermercado.​<br><br><b>Horario: </b>9:00 a 20:00<br><b>Dirección: </b>Cl. 17 #34-44, Barranquilla, Atlántico<br><b>Telefono: </b>+57 53332785<br>★★★✩✩ (25)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipPLfhiey27KXo8zz-2xeSpPirksQ0DwGFb7NaLe=w408-h272-k-no\" width=\"300\" height=\"200\">");
+
+var merka = L.marker([10.93648, -74.82503], {icon: tienda_icon, title: "Merkafull"}).addTo(myMap);
+merka  .bindPopup("<h2>Merkafull</h2><br>Supermercado.​<br><br><b>Horario: </b>7:00 a 20:00<br><b>Dirección: </b>Cl. 91 #2-5, Barranquilla, Atlántico<br><b>Telefono: </b>+57 55722730<br>★★★✩✩ (17)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipOJbITNdsKLBwqWT7-o8AIASDAhTD9DAuycEyE=w408-h306-k-no\" width=\"300\" height=\"200\">");
 
 //############### Search ###############
 
