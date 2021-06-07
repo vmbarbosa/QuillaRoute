@@ -210,6 +210,9 @@ restaur_ceci  .bindPopup("<h2>Restaurante Doña Ceci</h2><br>Restaurante.​<br>
 var restaur_tian = L.marker([10.96000, -74.77469], {icon: cubiertos_icon, title: "Restaurante Tian Wah"}).addTo(myMap);
 restaur_tian  .bindPopup("<h2>Restaurante Tian Wah</h2><br>Restaurante.​<br><br><b>Horario: </b>9:00 a 20:00<br><b>Dirección: </b>Cl. 17 #22-36, Barranquilla, Atlántico<br><b>Telefono: </b>+57 3026773113<br>★★★★★ (30)<br><br><img src=\"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=V76-ZoxMM1_IE-7NR-pWMw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=93.015785&pitch=0&thumbfov=100\" width=\"300\" height=\"200\">");
 
+var restaur_ana = L.marker([10.93670, -74.81778], {icon: cubiertos_icon, title: "Comidas Rápidas La Terraza De Ana"}).addTo(myMap);
+restaur_ana  .bindPopup("<h2>Comidas Rápidas La Terraza De Ana</h2><br>Restaurante.​<br><br><b>Horario: </b>7:00 a 21:00<br><b>Dirección: </b>Cl. 68 #2-67 a 2-1, Barranquilla, Atlántico<br><b>Telefono: </b>+57 3116713455<br>★★★★✩ (23)<br><br><img src=\"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=v3W9DfS8Nl1em86Vw8Yb-Q&cb_client=search.gws-prod.gps&w=408&h=240&yaw=59.463585&pitch=0&thumbfov=100\" width=\"300\" height=\"200\">");
+
 //############### Search ###############
 
 var searchLayer = L.layerGroup();
