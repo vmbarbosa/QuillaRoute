@@ -13,3 +13,7 @@ function Agro(){
 function Carnaval(){
     location.href = "https://www.barranquilla.gov.co/descubre/carnaval-de-barranquilla";
 }
+
+function start(){
+    location.href="../QuillaRoute/register.html"
+}

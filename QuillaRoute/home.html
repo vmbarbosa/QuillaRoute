@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Quilla Route</title>
+    <link rel="shortcut icon" href="../images/Logo-Map.png">
     <script type="text/javascript" src="../js/script_home.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+    <script src="https://kit.fontawesome.com/e7ef08bb2a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilos-home.css">
+
 </head>
+
 <body>
     <header>
         <nav>
@@ -22,28 +28,92 @@
             <a href="register.html" class="boton-registrar-inicio">Registrar</a>
         </nav>
     </header>
+
     <main>
         <section class="festival">
-            <div class="head">
-                <!-- Se utiliza una imagen para redireccionar a la ruta a la que se dirige cuando se da clic a través de js-->
-                <img src="../images/Festivales.png" alt="" class="img-principal" onclick="Carnaval();">
-                <div class="present">
-                    <p class="presenttext">Ofrecemos la capacidad de realizar acercamientos y alejamientos para mostrar el mapa. Puedes realizar busquedas de alojamiento, restaurantes, lugares mas visitados, entre otros.</p>
+            <div class="carousel">
+                <div class="carousel__contenedor">
+                    <button class="carousel__anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel__lista">
+                        <div class="carousel__elemento">
+                            <div class="leftcarousel">
+                                <h2>!Los mejores eventos!</h2>
+                                <p>Con nuestra página podrás encontrar los eventos más esperados a lo largo del año.</p>
+                                <button href="" class="explorar">Empezar</button>
+                            </div>
+                            <img src="../images/Festival.png" alt="festivales">
+                        </div>
+                        <div class="carousel__elemento">
+                            <div class="leftcarousel">
+                                <h2>!Los mejores lugares!</h2>
+                                <p>Explora los lugares más enigmáticos de la ciudad.</p>
+                                <button href="" class="explorar">Explorar</button>
+                            </div>
+                            <img src="../images/monumento-la-ventana-al-mundo.jpg" alt="festivales">
+                        </div>
+                        <div class="carousel__elemento">
+                            <div class="leftcarousel">
+                                <h2>!Las mejores historias!</h2>
+                                <p>Un sin fín de historias que la ciudad te contará y otras muchas que vivirás.</p>
+                                <button href="" class="explorar">Explorar</button>
+                            </div>
+                            <img src="../images/plazapaz.jpg" alt="festivales">
+                        </div>
+                    </div>
+                    <button class="carousel__siguiente">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div role="tablist" class="carousel__indicadores">
+
                 </div>
             </div>
-            
         </section>
         <!-- Breve descripción de eventos en Barranquilla -->
-        <h2 class="titulo-eventos">¡Conoce los nuevos eventos!</h2>
-        <p>La cultura de Barranquilla nace de la convergencia de las culturas indígenas de la Región Caribe con la europea y la africana a la llegada de los españoles a América. A partir del siglo XIX, a través de los inmigrantes que se asientan en la ciudad se hacen presentes los aportes de culturas como la árabe, la judía, la estadounidense, la alemana, la francesa y la italiana. Durante todo el año, se desarrollan en la ciudad actividades culturales, cuya muestra más representativa es el Carnaval de Barranquilla, una de las fiestas populares más célebres de Colombia. En 2001 fue declarado "Patrimonio de la Nación", por el Congreso Nacional de Colombia, y en 2003 como una de las "Obras Maestras del Patrimonio Oral e Intangible de la Humanidad" por la Unesco.
+        <section class="ventajas">
+            <h1>Descúbrenos</h1>
+            <p>Conoce la variedad de herramientas que tenemos para que empiezes a trazar tus rutas y a visitar los
+                lugares de la ciudad.</p>
+            <div class="tools">
+                <div class="container">
+                    <a class=icony><i class="fa-5x fas fa-map-marked-alt"></i></a>
+                    <h2>Explora</h2>
+                    <p>Mapa completamente interactivo, traza rutas, empieza a pasear. </p>
+                </div>
+                <div class="container">
+                    <a class=icony><i class="fa-5x far fa-comments"></i></a>
+                    <h2>Califica</h2>
+                    <p>Deja tu valoración y comentarios acerca de los lugares que visites. </p>
+                </div>
+                <div class="container">
+                    <a class=icony><i class="fa-5x far fa-newspaper"></i></a>
+                    <h2>Mantente al día</h2>
+                    <p>Últimas noticias acerca de los lugares y eventos más importantes de la ciudad. </p>
+                </div>
+                <div class="container">
+                    <a class=icony><i class="fa-5x fas fa-users"></i></a>
+                    <h2>Comparte</h2>
+                    <p>Comparte o explora post de la comunidad en nuestro foro abierto y sus categorías</p>
+                </div>
+
+            </div>
+            <div class="empiezas">
+                <button onclick="start();" class="empezar">¡Empieza ya!</button>
+            </div>
+
+
+        </section>
+        <section class="eventos">
+            <h2 class="titulo-eventos">¡Conoce los nuevos eventos!</h2>
+            <p>Conoce la variedad de nuevos eventos que hacen parte o se incorporan a la cultura barranquillera.
 
             </p>
-            <p>Adiconal a esto, otros eventos que se destacan son el Carnaval Internacional de las Artes, la Carnavalada, Barranquijazz,el carnaval de los niños ,muestras artísticas y manifestaciones folclóricas como exposiciones, talleres literarios, conversatorios filosóficos, piezas de teatro, jornadas de poesía, cuentos, danzas, exposiciones, conciertos y festivales.</p>
-        <section class="eventos">
             <div class="cards">
                 <!-- Se utiliza una imagen para redireccionar a la ruta a la que se dirige cuando se da clic a través de js-->
-                <div class="card" onclick="Sabor();"">
-                    <img src="../images/Evento 1.jpg" alt="">
+                <div class="card" onclick="Sabor();">
+                    <img src=" ../images/Evento 1.jpg" alt="">
                     <h4>Sabor Barranquilla</h4>
                 </div>
                 <div class="card" onclick="Auto();">
@@ -65,8 +135,11 @@
         <img src="../images/vector-instagram.png" alt="">
     </section>
     <footer>
-        
+
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script src="../js/script_home2.js"></script>
+
 </body>
+
 </html>
