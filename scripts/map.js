@@ -137,7 +137,7 @@ var parque_virgen_icon = L.ExtraMarkers.icon({
 
 var cubiertos_icon = L.ExtraMarkers.icon({
   icon: 'fas fa-utensils',
-  markerColor: 'green',
+  markerColor: 'orange',
   shape: 'square',
   prefix: 'fa'
 });
@@ -206,6 +206,9 @@ parque_virgen  .bindPopup("<h2>Parque La Virgencita Del Bosque</h2><br>Parque.�
 
 var restaur_ceci = L.marker([11.02105, -74.80638], {icon: cubiertos_icon, title: "Restaurante Doña Ceci"}).addTo(myMap);
 restaur_ceci  .bindPopup("<h2>Restaurante Doña Ceci</h2><br>Restaurante.​<br><br><b>Horario: </b>10:30 a 15:00<br><b>Dirección: </b>Cl. 82b ##76-29, Barranquilla, Atlántico<br><b>Telefono: </b>+57 3216593184<br>★★★★★ (10)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipNy_JizpStaWX3qQ8JQ3jxqwcncJmtUy3oIMECj=w426-h240-k-no\" width=\"300\" height=\"200\">");
+
+var restaur_tian = L.marker([10.96000, -74.77469], {icon: cubiertos_icon, title: "Restaurante Tian Wah"}).addTo(myMap);
+restaur_tian  .bindPopup("<h2>Restaurante Tian Wah</h2><br>Restaurante.​<br><br><b>Horario: </b>9:00 a 20:00<br><b>Dirección: </b>Cl. 17 #22-36, Barranquilla, Atlántico<br><b>Telefono: </b>+57 3026773113<br>★★★★★ (30)<br><br><img src=\"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=V76-ZoxMM1_IE-7NR-pWMw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=93.015785&pitch=0&thumbfov=100\" width=\"300\" height=\"200\">");
 
 //############### Search ###############
 
