@@ -135,6 +135,13 @@ var parque_virgen_icon = L.ExtraMarkers.icon({
   prefix: 'fa'
 });
 
+var cubiertos_icon = L.ExtraMarkers.icon({
+  icon: 'fas fa-utensils',
+  markerColor: 'green',
+  shape: 'square',
+  prefix: 'fa'
+});
+
 //############### Markers ###############
 
 var Stadium = L.marker([10.993591464586146, -74.8069963064242], {icon: Stadium_icon, title: "Estadio Romelio Martinez"}).addTo(myMap);
@@ -196,6 +203,9 @@ plaza_aduana  .bindPopup("<h2>Plaza De La Aduana</h2><br>Uno de los lugares hist
 
 var parque_virgen = L.marker([10.95260, -74.82203], {icon: parque_virgen_icon, title: "Parque La Virgencita Del Bosque"}).addTo(myMap);
 parque_virgen  .bindPopup("<h2>Parque La Virgencita Del Bosque</h2><br>Parque.​<br><br><b>Horario: </b>24 horas<br><b>Dirección: </b>Cl. 76 No 8, Barranquilla, Atlántico<br>★✩✩✩✩ (5)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipOqLnNBCUhQbDhcwsBN6eqlElrSqTKVcbsP2t_R=w426-h240-k-no\" width=\"300\" height=\"200\">");
+
+var restaur_ceci = L.marker([11.02105, -74.80638], {icon: cubiertos_icon, title: "Restaurante Doña Ceci"}).addTo(myMap);
+restaur_ceci  .bindPopup("<h2>Restaurante Doña Ceci</h2><br>Restaurante.​<br><br><b>Horario: </b>10:30 a 15:00<br><b>Dirección: </b>Cl. 82b ##76-29, Barranquilla, Atlántico<br><b>Telefono: </b>+57 3216593184<br>★★★★★ (10)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipNy_JizpStaWX3qQ8JQ3jxqwcncJmtUy3oIMECj=w426-h240-k-no\" width=\"300\" height=\"200\">");
 
 //############### Search ###############
 
