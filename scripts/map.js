@@ -149,6 +149,13 @@ var tienda_icon = L.ExtraMarkers.icon({
   prefix: 'fa'
 });
 
+var aviacion_icon = L.ExtraMarkers.icon({
+  icon: 'fas fa-monument',
+  markerColor: 'blue',
+  shape: 'square',
+  prefix: 'fa'
+});
+
 //############### Markers ###############
 
 var Stadium = L.marker([10.993591464586146, -74.8069963064242], {icon: Stadium_icon, title: "Estadio Romelio Martinez"}).addTo(myMap);
@@ -229,6 +236,10 @@ exito_mur  .bindPopup("<h2>Tienda Ara</h2><br>Supermercado.​<br><br><b>Horario
 var merka = L.marker([10.93648, -74.82503], {icon: tienda_icon, title: "Merkafull"}).addTo(myMap);
 merka  .bindPopup("<h2>Merkafull</h2><br>Supermercado.​<br><br><b>Horario: </b>7:00 a 20:00<br><b>Dirección: </b>Cl. 91 #2-5, Barranquilla, Atlántico<br><b>Telefono: </b>+57 55722730<br>★★★✩✩ (17)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipOJbITNdsKLBwqWT7-o8AIASDAhTD9DAuycEyE=w408-h306-k-no\" width=\"300\" height=\"200\">");
 
+var aviacion = L.marker([10.94922, -74.77430], {icon: aviacion_icon, title: "Monumento a la aviación"}).addTo(myMap);
+aviacion  .bindPopup("<h2>Monumento a la aviación</h2><br>El monumento réplica del avión que piloteó Knox Martín en el año 1919, cuando voló de Barranquilla a Puerto Colombia en un biplano modelo Curtiss, con el copiloto colombiano Mario Santodomingo.​<br><br><b>Dirección: </b>a 8-180, Cl. 18 #8-102, Barranquilla, Atlántico<br>★★★✩✩ (17)<br><br><img src=\"https://lh5.googleusercontent.com/p/AF1QipP9VM0ZNZ4qyFLOTszP8MmuxO7ZoP788p6WYv0x=w426-h240-k-no\" width=\"300\" height=\"200\">");
+
+aviacion_icon
 //############### Search ###############
 
 var searchLayer = L.layerGroup();
